@@ -11,9 +11,9 @@ public class Mensaje {
 
     }
 
-    public void saludar(String nombre) {
+    public void saludar(Persona p) {
 
-        System.out.printf("Hola %s, bienvenido a Java \n", nombre);
+        System.out.printf("Hola %s, bienvenido a Java \n", p);
 
     }
 }

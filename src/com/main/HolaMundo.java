@@ -6,10 +6,9 @@ public class HolaMundo {
 
         Mensaje msj = new Mensaje();
         String nombre = msj.solicitaDatos("Escribe tu nombre: ");
-        msj.saludar(nombre);
-
-
-
+        String apellido = msj.solicitaDatos("Escribe tu apellido: ");
+        Persona p1 = new Persona(nombre, apellido);
+        msj.saludar(p1);
     }
 
 }
